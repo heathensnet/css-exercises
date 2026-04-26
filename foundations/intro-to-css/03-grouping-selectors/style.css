@@ -1,1 +1,13 @@
 /* Add CSS Styling */
+/* this could've been done by using button, but the point is grouping so.. */
+.black, .yellow {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+.black {
+    background-color: #000;
+    color: #fff;
+}
+.yellow {
+    background-color: #ffff00;
+}
