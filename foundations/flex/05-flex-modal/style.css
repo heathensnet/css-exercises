@@ -15,11 +15,26 @@ body {
   justify-content: center;
 }
 
+button {
+  margin: 12px 0 0 0;
+}
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
+  padding: 12px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+}
+
+.top {
+  display: flex;
+  gap: 12px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.content {
+  margin: -12px 0 0 52px;
 }
 
 .icon {
@@ -36,6 +51,7 @@ body {
 }
 
 .close-button {
+  margin: 0 0 0 auto;
   background: #eee;
   border-radius: 50%;
   color: #888;
